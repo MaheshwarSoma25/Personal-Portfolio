@@ -1,0 +1,36 @@
+Combinators:
+-----------
+4 types of selectors
+1. Child selector (>)
+2. Descendent selector (space)
+3. Adjacent sibling selector (+)
+4. General sibling selector (~)
+
+flex - properties
+-----------------
+x-axis values
+justify-content: space-between;
+                 space-around;
+                 space-evenly;
+y-axis values
+align-items: start;
+             center;
+             end;   
+
+flex-direction: row-reverse;
+                row-column;
+                row;
+                column;
+
+flex-wrap: wrap;
+           wrap-reverse;
+
+align-content: start;
+               center;
+               end;
+               flex-start;
+               flex-end;
+               space-around;
+               space-between;
+               space-evenly;
+               
