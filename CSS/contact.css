@@ -1,0 +1,217 @@
+.nav_bar > nav > a[href*="contact.html"] {
+  color: #34b7a7;
+}
+
+* {
+  margin: 0px;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+  margin-top: 80px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.child-container {
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.child-container-1 {
+  width: 520px;
+}
+
+.bi-geo-alt, .bi-telephone, .bi-envelope {
+  color: #34b7a7;
+  font-size: 20px;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 50%;
+  background-color: #34b7a817;
+
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 391px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.row-1>div>h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.row-1>div>p {
+  font-size: 14px;
+}
+iframe {
+  width: 450px;
+  height: 270px;
+}
+
+.grand-child-container {
+  display: flex;
+  flex-direction: row;
+}
+.child-container-2 {
+  color: rgba(0, 0, 0, 0.696);
+  width: 765px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+}
+
+#name, #email {
+  width: 340px;
+}
+#subject, #name, #email {
+  padding: 10px;
+}
+
+#message, #subject, #name, #email {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#name {
+  margin-right: 20px;
+}
+#subject, #message {
+  width: 698px;
+}
+#message {
+  padding: 100px;
+}
+
+button {
+  padding: 12px 30px;
+  background-color: #34b7a7;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 50px;
+
+}
+
+input, textarea {
+  border: 1px solid rgba(128, 128, 128, 0.385);
+}
+
+@media screen and (min-width: 1272px) {
+
+}
+@media screen and (min-width: 1200px) and (max-width: 1272px) {
+  .child-container-1 {
+    width: 450px;
+  }
+  .row-1, iframe {
+    width: 391px;
+  }
+
+  .child-container-2 {
+    width: 630px;
+  }
+  #name, #email {
+    width: 270px;
+  }
+  #subject, #message {
+    width: 560px;
+  }
+
+}
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+  .child-container-1 {
+    width: 380px;
+  }
+  .row-1, iframe {
+    width: 320px;
+  }
+
+  .child-container-2 {
+    width: 550px;
+  }
+  #name, #email {
+    width: 240px;
+  }
+  #subject, #message {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .container {
+    flex-direction: column;
+  }
+  .child-container-1 {
+    width: 700px;
+  }
+  .row-1, iframe {
+    width: 640px;
+  }
+
+  .child-container-2 {
+    width: 700px;
+  }
+  #name, #email {
+    width: 310px;
+  }
+  #subject, #message {
+    width: 640px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .child-container-1 {
+    width: 510px;
+  }
+  .row-1, iframe {
+    width: 450px;
+  }
+
+  .child-container-2 {
+    width: 510px;
+  }
+  #name, #email {
+    width: 215px;
+  }
+  #subject, #message {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .child-container-1 {
+    width: 90%;
+  }
+  .row-1, iframe {
+    width: 85%;
+  }
+
+  .child-container-2 {
+    width: 90%;
+  }
+  #name, #email {
+    width: 100%;
+  }
+  #subject, #message {
+    width: 100%;
+  }
+}
+
