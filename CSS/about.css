@@ -2,6 +2,10 @@
   color: #34b7a7;
 }
 
+a {
+  color: #34b7a7;
+}
+
 .section {
   /* padding-top: 60px; */
   padding-bottom: 60px;
@@ -175,36 +179,39 @@ span, .val {
   width: 546px;
   text-align: left;
 }
+
+/* Skills Percentage */
 .percentage>div {
   width: 100%;
   height: 9.5px;
   background-color: #eaeaea;
   margin-bottom: 20px;
 }
+
 .percentage-100>div>div {
-  width: 100%;
+  width: 90%;
   border: 5px solid #34b7a7;
 }
 .percentage-90>div>div {
-  width: 90%;
+  width: 70%;
   border: 5px solid #34b7a7;
 }
 .percentage-75>div>div {
-  width: 75%;
+  width: 70%;
   border: 5px solid #34b7a7;
 }
 .percentage-80>div>div {
-  width: 80%;
+  width: 75%;
   border: 5px solid #34b7a7;
 }
 .percentage-90>div>div {
-  width: 90%;
+  width: 75%;
   border: 5px solid #34b7a7;
 }
-.percentage-55>div>div {
+/* .percentage-55>div>div {
   width: 55%;
   border: 5px solid #34b7a7;
-}
+} */
 
 @media screen and (min-width: 1272px) {
   .percentage {
@@ -225,6 +232,7 @@ span, .val {
   .progress {
     display: flex;
     flex-direction: column;
+    gap: 0px;
   }
   .percentage {
     width: 696px;
