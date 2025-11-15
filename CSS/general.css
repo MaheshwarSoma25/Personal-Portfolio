@@ -7,7 +7,16 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
+  background: linear-gradient(to bottom right, #000000, #1a1a1a);
 }
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+}
+
 .main-heading-container {
   display: flex;
   flex-direction: column;
@@ -15,8 +24,8 @@ body {
   align-items: center;
   padding-left: 12px;
   padding-right: 12px;
-  padding-bottom: 60px;
-  padding-top: 80px;
+  padding-bottom: 20px;
+  padding-top: 70px;
 }
 
 .underline {
@@ -26,10 +35,6 @@ body {
  margin-bottom: 20px;
 }
 
-* {
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-}
 a {
   text-decoration: none;
   cursor: pointer;
@@ -75,7 +80,7 @@ a {
 
 /* header */
 header {
-  background-color: #e9e8e6;
+  background-color: black;
   height: 11%;
   display: flex;
   justify-content: space-between;
@@ -93,14 +98,14 @@ header {
 .name>p {
   font-size: 34px;
   font-weight: 300;
-  color: #222222;
-  margin-left: 12px;
+  color: rgb(204, 202, 202);
+  margin-left: 20px;
 }
 
 .nav-button {
   font-size: 17px;
   text-decoration: none;
-  color: #222222;
+  color: rgb(204, 202, 202);
   padding: 15px 14px;
   transition: 0.3s;
   position: relative;
@@ -146,7 +151,7 @@ header {
 }
 .social_media>i, .social_media>a {
   font-size: 16px;
-  color: gray;
+  color: rgb(204, 202, 202);
   margin-right: 5px;
   cursor: pointer;
   transition: 0.3s;
@@ -194,13 +199,14 @@ header {
 
 /* footer */
 footer {
-  background-color: #e9e8e6;
+  background-color: black;
   text-align: center;
   padding: 26px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 15px;
+  box-shadow: 0 1px 6px rgba(139, 138, 138, 0.2);
 }
 
 footer>div>p {
@@ -210,7 +216,7 @@ footer>div>p {
   margin-bottom: 15px;
   margin-top: 10px;
 }
-footer>div>i {
+footer>div>a>i {
   border: 1px solid #444444;
   padding: 12px;
   border-radius: 50px;
@@ -222,7 +228,7 @@ footer>div>i {
   cursor: pointer;
 
 }
-footer>div>i:hover {
+footer>div>a>i:hover {
   color: #34b7a7;
   border-color: #34b7a7;
 }
