@@ -147,6 +147,17 @@ header {
 
 }
 
+@media screen and (min-width: 367px) and (max-width: 394px) {
+  .bi-github, .bi-linkedin, .bi-instagram {
+    display: none;
+  }
+}
+@media screen and (max-width: 367px) {
+  .bi-github, .bi-linkedin, .bi-instagram {
+    display: none;
+  }
+}
+
 .social_media {
   margin-right: 20px;
 }
