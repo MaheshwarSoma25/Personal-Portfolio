@@ -75,6 +75,7 @@ li {
   color: #34b7a7;
 }
 
+/* -------------------- 1272px and above -------------------- */
 @media screen and (min-width: 1272px) {
   .profile-img {
     max-width: 450px;
@@ -87,11 +88,12 @@ li {
     display: flex;
     flex-direction: row;
   }
-
 }
-@media screen and (min-width: 1200px) and (max-width: 1272px) {
+
+/* -------------------- 1200px to 1271px -------------------- */
+@media screen and (min-width: 1200px) and (max-width: 1271px) {
   .profile-img {
-    max-width: 380px;
+    max-width: 450px;
   }
   .details {
     max-width: 785px;
@@ -100,11 +102,12 @@ li {
     display: flex;
     flex-direction: row;
   }
-
 }
-@media screen and (min-width: 990px) and (max-width: 1200px) {
+
+/* -------------------- 1080px to 1199px -------------------- */
+@media screen and (min-width: 1080px) and (max-width: 1200px) {
   .profile-img {
-    max-width: 320px;
+    max-width: 380px;
   }
   .details {
     max-width: 640px;
@@ -114,9 +117,11 @@ li {
     flex-direction: row;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+
+/* -------------------- 767px to 1079px -------------------- */
+@media screen and (min-width: 767px) and (max-width: 1080px) {
   .profile-img {
-    width: 600px;
+    max-width: 600px;
   }
   .details {
     width: 696px;
@@ -126,7 +131,9 @@ li {
     padding: 0px;
   }
 }
-@media screen and (min-width: 576px) and (max-width: 768px) {
+
+/* -------------------- 576px to 766px -------------------- */
+@media screen and (min-width: 576px) and (max-width: 767px) {
   .profile-img {
     width: 516px;
   }
@@ -141,22 +148,22 @@ li {
     width: 516px;
   }
 }
+
+/* -------------------- Below 576px -------------------- */
 @media screen and (max-width: 576px) {
-  .profile-img {
+  .profile-img,
+  .details,
+  .about-container {
     width: auto;
   }
-  .details {
-    width: auto;
-  }
+
   .biodata {
     flex-direction: column;
     padding: 0px;
     width: auto;
   }
-  .about-container {
-    width: auto;
-  }
 }
+
 
 /* skills section */
 .skills {

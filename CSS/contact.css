@@ -83,6 +83,9 @@ iframe {
 #message, #subject, #name, #email {
   margin-top: 10px;
   margin-bottom: 20px;
+  background-color: rgba(38, 37, 37, 0.632);
+  border-radius: 5px;
+  border: solid 1px rgba(255, 255, 255, 0.436);
 }
 #name {
   margin-right: 20px;
@@ -102,7 +105,10 @@ button {
   font-weight: 400;
   border: none;
   border-radius: 50px;
-
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 input, textarea {
